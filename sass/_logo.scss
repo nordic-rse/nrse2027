@@ -1,0 +1,24 @@
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 0.1rem;
+}
+
+.logo {
+    max-width: 20rem;
+    height: auto;
+}
+// Mobile responsive styles
+@media (max-width: 767px) {
+    .logo-container {
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+
+    .logo {
+        max-width: 12rem;
+    }
+}

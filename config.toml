@@ -1,0 +1,20 @@
+base_url = "XX"
+compile_sass = true
+build_search_index = false
+generate_feeds = false
+minify_html = true
+
+# [markdown]
+# highlight_code = false
+# highlight_theme = "css"
+# smart_punctuation = true
+
+[extra]
+footer_text = "This website is built using [Zola](https://www.getzola.org) and the [Academic Workshop](http://github.com/aterenin/academic-workshop/) theme."
+title = {tagline = "Presenting the", title = "Nordic-RSE Conference", subtitles = ["XX"]}
+banner = {extension = "jpg", size = "cover", fade = true}
+buttons = [{name = "About", url = "#about"}, {name = "Venue", url = "#venue"}, {name = "Schedule", url = "xx"},{name = "Contact", url = "#contact"},{name = "Code of Conduct", url = "xx"}]
+image = {resize = 400, ext = '.jpg'}
+list_page_limit = 10
+header_pages = [{name = "Home", url = "/#home"},{name = "Call for contributions", url = "/#call-for-abstracts"}, {name = "Schedule", url = "/#schedule"},{name = "Venue", url = "/#venue"}]
+button_shortcuts = [{variable = "video", name = "Video"}]
