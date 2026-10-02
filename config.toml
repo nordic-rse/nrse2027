@@ -1,4 +1,4 @@
-base_url = "XX"
+base_url = "https://nordic-rse.org/nrse2027"
 compile_sass = true
 build_search_index = false
 generate_feeds = false
