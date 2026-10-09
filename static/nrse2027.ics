@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Nordic-RSE//NRSE 2027//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:nrse2027-20270615@nordic-rse.org
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270617
+SUMMARY:Nordic Research Software Engineering Conference 2027
+LOCATION:Delta Centre\, Narva mnt 18\, Tartu\, Estonia
+DESCRIPTION:Two days of practical ideas and connections for people who writ
+ e\, maintain\, or support software for research. Organized by the Universi
+ ty of Tartu\, Institute of Computer Science\, Nordic-RSE and ELIXIR Estoni
+ a. See the Nordic-RSE website for updates.
+URL:https://nordic-rse.org/nrse2027/
+END:VEVENT
+END:VCALENDAR

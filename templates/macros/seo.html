@@ -17,8 +17,12 @@
 {% if card_image %}
 <meta property="og:image" content="{{ card | safe }}">
 <meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="{{ card_image.width }}">
+<meta property="og:image:height" content="{{ card_image.height }}">
+<meta property="og:image:alt" content="{{ page.extra.card.alt | default(value = page.title) }}">
 <meta name="twitter:card" content="{% if page.extra.card.large %}summary_large_image{% else %}summary{% endif %}">
 <meta property="twitter:image" content="{{ card | safe }}">
+<meta name="twitter:image:alt" content="{{ page.extra.card.alt | default(value = page.title) }}">
 {% endif %}
 <meta property="twitter:title" content="{{ page.title }}">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite",{% if page.description %}"description":"{{ page.description }}",{% endif %}"headline":"{{ page.title }}",{% if card_image %}"image":"{{ card | safe }}",{% endif %}"name":"{{ page.title }}","url":"{{ url | safe }}"}</script>

@@ -1,3 +1,5 @@
 .DS_Store
 /static/processed_images
 /public
+/.tools/
+/.preview/
